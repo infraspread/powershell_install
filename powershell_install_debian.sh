@@ -20,4 +20,4 @@ apt-get update
 apt-get install -y powershell
 
 # Start PowerShell
-echo "start powershell with pwsh"
+echo 'start powershell with pwsh'
