@@ -1,5 +1,9 @@
 #!/bin/sh
-echo "source this script using curl 
+echo "use this script using "
+echo "wget -O - https://raw.githubusercontent.com/infraspread/powershell_install/main/powershell_install_debian.sh | bash"
+echo "or"
+echo "bash <(curl -s https://raw.githubusercontent.com/infraspread/powershell_install/main/powershell_install_debian.sh)"
+echo ""
 apt-get update
 apt-get install -y wget
 source /etc/os-release
@@ -18,3 +22,5 @@ apt-get update
 
 # Install PowerShell
 apt-get install -y powershell
+
+echo "start powershell with pwsh"
